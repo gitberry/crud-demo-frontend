@@ -1,0 +1,109 @@
+a {
+    cursor: pointer;
+}
+
+.app-container {
+    min-height: 350px;
+}
+
+.input1 { width: 100%}
+
+.SaveButton {
+    color:cornflowerblue;
+    padding: 8px;
+    margin-top:18px;
+    margin-left: 25%;
+    width: 50%;
+
+}
+
+.meta-footer {
+    font-size:xx-small;
+    padding-top: 20px
+}
+
+.edit-title {
+  vertical-align: middle;
+  font-size: smaller;
+  margin-left: 1rem;
+}
+
+.edit-title-header {
+    font-size: small;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-record-active {
+    color:green;
+}
+
+.footer-record-inactive {
+    color:red;
+}
+
+.btn-item-delete {
+    background-color:red; 
+    color:black; 
+    font-size:smaller;    
+}
+.btn-item-delete:hover {
+    background-color: darkred; 
+    color:white; 
+}
+
+.btn-item-undelete {
+    background-color:orange; 
+    color:black; 
+    /* width:25%; */
+    font-size:smaller;
+}
+.btn-item-undelete:hover {
+    background-color:darkorange;
+    color:white; 
+    /* width:25%; */
+}
+
+.btn-edit-back {
+    background-color: orange; 
+    border-color: white; 
+    color:darkblue;
+}
+
+/* .btn-logo2:hover {
+     northberryLogo2024Blinking.gif 
+} */
+
+.btn-logo1 {
+    position:absolute;
+    background: white;
+  }
+  
+.btn-logo2 {
+    position:absolute;
+    background: white;
+  }
+  
+  .btn-logo2:hover {
+    opacity:0;
+  }
+
+  .btn-add {
+    width:40px; height:40px; border-radius:70%; font-weight: bold;
+  }
+
+  .btn-more  {    
+    color: white;
+  }
+
+  .uzer-blurb {
+    display: flex; justify-content: space-between; color:green;font-weight: bold;
+  }
+
+  .song-blurb {
+    
+    border-bottom: 2px solid darkgray;    
+    padding-bottom: 12px;
+    padding-top: 6px;
+  }
