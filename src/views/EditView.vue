@@ -35,7 +35,7 @@ function act(givenAction) {
     <div>
         <h2>
             <span class="form-group">
-                <RouterLink to="/crud/" class="btn btn-primary btn-edit-back">&#11164; Back&nbsp;</RouterLink>
+                <RouterLink to="/crud/" class="btn btn-primary btn-edit-back">&lt; Back&nbsp;</RouterLink>
             </span>
             <span class="edit-title">EDIT</span>
         </h2>

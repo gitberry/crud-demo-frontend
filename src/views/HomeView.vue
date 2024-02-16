@@ -17,7 +17,7 @@ funnySongsStore.getMany();
 <template>
     <div>
         <h1><img src="/favicon.ico"> CRUD Demo</h1>
-        <h3 style="font-variant: small-caps"><b>C</b>reate <b>R</b>ead <b>U</b>pdate <b>D</b>elete</h3>
+        <h3 style="font-variant: small-caps; font-size:1.2em;text-align: center;"><b>C</b>reate <b>R</b>ead <b>U</b>pdate <b>D</b>elete</h3>
         <div>(typically referred to as CRUD &#9786;)</div>
         <div class="uzer-blurb">
             User: [{{ loginName }}]
@@ -30,7 +30,7 @@ funnySongsStore.getMany();
                 functionality.
             </div>
             <div style="padding-bottom:12px">
-                [ {{ theSongs.length }}] records retrieved:
+                [{{ theSongs.length }}] records retrieved:
             </div>
 
             <div v-if="theSongs.length" style="border-top: 2px solid darkgray; padding-top:2px">
