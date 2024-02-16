@@ -15,7 +15,8 @@ Needless to say - the two 'ends' know the structure of the data and this is a si
 ## Backend-End ##
 
 A standard .NET API app - Entity Framework, JWT token handling etc with the common element being the structure of the data - which in this case started with a POC (Plain Old Class) and evolved to include odd tricks because I designed a general-purpose SQL table that I wanted to use for multiple classes. Don't do that kids - I did it because I know I'll be building more demo's and just wanted to reduce table proliferation on my SQL servers...
-Working together
+
+## Working together ##
 
 Not only is basic CRUD demonstrated but authentication (JWT) was used to enforce a minimum permission level. I also attempt to build configurable permissions (via web.config) from ground up on first principles. After doing it I'm not sure I like it, but part of that was trying to keep the scope of a demo project low and resorting to "static" users. (Albiet configurable static users - which may be an oxymoronic phrase.)
 
@@ -24,4 +25,3 @@ If you look at the API backend code you'll see that at deployment, users can be 
 The frontend code: https://github.com/gitberry/crud-demo-frontend
 
 The backend code: https://github.com/gitberry/crud-demo-api/blob/main/.gitignore
-
