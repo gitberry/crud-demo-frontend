@@ -24,4 +24,4 @@ If you look at the API backend code you'll see that at deployment, users can be 
 
 The frontend code: https://github.com/gitberry/crud-demo-frontend
 
-The backend code: https://github.com/gitberry/crud-demo-api/blob/main/.gitignore
+The backend code: https://github.com/gitberry/crud-demo-api/
