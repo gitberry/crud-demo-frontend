@@ -48,7 +48,7 @@ const authStore = useAuthStore();
          The frontend code: <a target="_blank" href="https://github.com/gitberry/crud-demo-frontend">https://github.com/gitberry/crud-demo-frontend</a>
          </p>
          <p>
-         The backend code: <a target="_blank" href="https://github.com/gitberry/crud-demo-api/blob/main/.gitignore">https://github.com/gitberry/crud-demo-api/blob/main/.gitignore</a>
+         The backend code: <a target="_blank" href="https://github.com/gitberry/crud-demo-api">https://github.com/gitberry/crud-demo-api</a>
          </p>            
     </div>    
 </template>
